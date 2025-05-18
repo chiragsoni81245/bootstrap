@@ -1,0 +1,9 @@
+database:
+  uri: "sqlite3://app.db"
+  name: net-sentinel
+
+server:
+  port: 8080
+  migrations_path: "migrations"
+  secret: "abc123"
+  token_expiration_hours: 24
